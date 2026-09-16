@@ -1,0 +1,358 @@
+2026-09-16 13:13:32 [INFO] scheduler: Восстановлено запланированных записей: 0
+2026-09-16 13:13:32 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 13:13:32 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 13:13:32 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 13:13:32 [INFO] apscheduler.scheduler: Added job "keep_alive_session_job" to job store "default"
+2026-09-16 13:13:32 [INFO] apscheduler.scheduler: Added job "check_training_reminders" to job store "default"
+2026-09-16 13:13:32 [INFO] apscheduler.scheduler: Added job "monitor_free_spots_job" to job store "default"
+2026-09-16 13:13:32 [INFO] apscheduler.scheduler: Scheduler started
+2026-09-16 13:13:32 [INFO] aiogram.dispatcher: Start polling
+2026-09-16 13:13:33 [INFO] aiogram.dispatcher: Run polling for bot @IUSport_Bot id=8817843936 - 'SportBot'
+2026-09-16 13:13:44 [INFO] aiogram.event: Update id=723450563 is handled. Duration 793 ms by bot id=8817843936
+2026-09-16 13:13:51 [INFO] aiogram.event: Update id=723450564 is handled. Duration 123 ms by bot id=8817843936
+2026-09-16 13:13:54 [INFO] aiogram.event: Update id=723450565 is handled. Duration 170 ms by bot id=8817843936
+2026-09-16 13:13:58 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:13:59 [INFO] aiogram.event: Update id=723450566 is handled. Duration 748 ms by bot id=8817843936
+2026-09-16 13:14:57 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:14:57 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:14:58 [INFO] aiogram.event: Update id=723450567 is handled. Duration 1293 ms by bot id=8817843936
+2026-09-16 13:15:00 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:00 [INFO] aiogram.event: Update id=723450568 is handled. Duration 623 ms by bot id=8817843936
+2026-09-16 13:15:04 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:05 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/training/46760 "HTTP/1.1 200 OK"
+2026-09-16 13:15:05 [INFO] aiogram.event: Update id=723450569 is handled. Duration 831 ms by bot id=8817843936
+2026-09-16 13:15:08 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:08 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/training/46760 "HTTP/1.1 200 OK"
+2026-09-16 13:15:08 [INFO] apscheduler.scheduler: Added job "booking_job" to job store "default"
+2026-09-16 13:15:08 [INFO] aiogram.event: Update id=723450570 is handled. Duration 926 ms by bot id=8817843936
+2026-09-16 13:15:09 [INFO] apscheduler.scheduler: Removed job booking_1972499386_46760
+2026-09-16 13:15:09 [INFO] apscheduler.executors.default: Running job "booking_job (trigger: date[2026-09-16 13:15:09 MSK], next run at: 2026-09-16 13:15:09 MSK)" (scheduled at 2026-09-16 13:15:09.530763+03:00)
+2026-09-16 13:15:10 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:10 [INFO] httpx: HTTP Request: POST https://sport.innopolis.university/api/training/46760/check_in "HTTP/1.1 200 OK"
+2026-09-16 13:15:10 [INFO] scheduler: Запись user=1972499386 training=46760 HTTP=200 code=None
+2026-09-16 13:15:11 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:11 [INFO] apscheduler.executors.default: Job "booking_job (trigger: date[2026-09-16 13:15:09 MSK], next run at: 2026-09-16 13:15:09 MSK)" executed successfully
+2026-09-16 13:15:22 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:22 [INFO] aiogram.event: Update id=723450571 is handled. Duration 657 ms by bot id=8817843936
+2026-09-16 13:15:24 [INFO] httpx: HTTP Request: POST https://sport.innopolis.university/api/training/46760/cancel_check_in "HTTP/1.1 200 OK"
+2026-09-16 13:15:25 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:25 [INFO] scheduler: Локальный BookingPlan удалён: user=1972499386 training=46760
+2026-09-16 13:15:26 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:26 [INFO] aiogram.event: Update id=723450572 is handled. Duration 1870 ms by bot id=8817843936
+2026-09-16 13:15:30 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:31 [INFO] aiogram.event: Update id=723450573 is handled. Duration 1784 ms by bot id=8817843936
+2026-09-16 13:15:32 [INFO] apscheduler.executors.default: Running job "monitor_free_spots_job (trigger: interval[0:02:00], next run at: 2026-09-16 13:17:32 MSK)" (scheduled at 2026-09-16 13:15:32.579468+03:00)
+2026-09-16 13:15:32 [INFO] apscheduler.executors.default: Job "monitor_free_spots_job (trigger: interval[0:02:00], next run at: 2026-09-16 13:17:32 MSK)" executed successfully
+2026-09-16 13:15:33 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:33 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:34 [INFO] aiogram.event: Update id=723450574 is handled. Duration 1328 ms by bot id=8817843936
+2026-09-16 13:15:42 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:42 [INFO] aiogram.event: Update id=723450575 is handled. Duration 680 ms by bot id=8817843936
+2026-09-16 13:15:44 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:45 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/training/46760 "HTTP/1.1 200 OK"
+2026-09-16 13:15:45 [INFO] aiogram.event: Update id=723450576 is handled. Duration 858 ms by bot id=8817843936
+2026-09-16 13:15:46 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:46 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/training/46760 "HTTP/1.1 200 OK"
+2026-09-16 13:15:46 [INFO] apscheduler.scheduler: Added job "booking_job" to job store "default"
+2026-09-16 13:15:46 [INFO] aiogram.event: Update id=723450577 is handled. Duration 887 ms by bot id=8817843936
+2026-09-16 13:15:47 [INFO] apscheduler.scheduler: Removed job booking_1972499386_46760
+2026-09-16 13:15:47 [INFO] apscheduler.executors.default: Running job "booking_job (trigger: date[2026-09-16 13:15:47 MSK], next run at: 2026-09-16 13:15:47 MSK)" (scheduled at 2026-09-16 13:15:47.690068+03:00)
+2026-09-16 13:15:48 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:48 [INFO] httpx: HTTP Request: POST https://sport.innopolis.university/api/training/46760/check_in "HTTP/1.1 200 OK"
+2026-09-16 13:15:48 [INFO] scheduler: Запись user=1972499386 training=46760 HTTP=200 code=None
+2026-09-16 13:15:49 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:15:49 [INFO] apscheduler.executors.default: Job "booking_job (trigger: date[2026-09-16 13:15:47 MSK], next run at: 2026-09-16 13:15:47 MSK)" executed successfully
+2026-09-16 13:15:59 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:16:00 [INFO] aiogram.event: Update id=723450578 is handled. Duration 595 ms by bot id=8817843936
+2026-09-16 13:16:01 [INFO] httpx: HTTP Request: POST https://sport.innopolis.university/api/training/46760/cancel_check_in "HTTP/1.1 200 OK"
+2026-09-16 13:16:02 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:16:02 [INFO] scheduler: Локальный BookingPlan удалён: user=1972499386 training=46760
+2026-09-16 13:16:02 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:16:03 [INFO] aiogram.event: Update id=723450579 is handled. Duration 1487 ms by bot id=8817843936
+2026-09-16 13:16:07 [INFO] aiogram.event: Update id=723450580 is handled. Duration 164 ms by bot id=8817843936
+2026-09-16 13:16:10 [INFO] aiogram.event: Update id=723450581 is handled. Duration 213 ms by bot id=8817843936
+2026-09-16 13:16:12 [INFO] aiogram.event: Update id=723450582 is handled. Duration 127 ms by bot id=8817843936
+2026-09-16 13:16:16 [INFO] aiogram.event: Update id=723450583 is handled. Duration 124 ms by bot id=8817843936
+2026-09-16 13:16:28 [INFO] aiogram.dispatcher: Polling stopped
+2026-09-16 13:16:28 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-09-16 13:16:28 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8817843936)
+2026-09-16 13:16:28 [INFO] apscheduler.scheduler: Paused scheduler job processing
+2026-09-16 13:16:28 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-09-16 13:16:28 [INFO] aiogram.dispatcher: Polling stopped for bot @IUSport_Bot id=8817843936 - 'SportBot'
+2026-09-16 13:16:28 [INFO] root: Бот остановлен.
+2026-09-16 13:16:29 [ERROR] asyncio: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002062241B770>
+2026-09-16 13:16:55 [INFO] scheduler: Восстановлено запланированных записей: 0
+2026-09-16 13:16:55 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 13:16:55 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 13:16:55 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 13:16:55 [INFO] apscheduler.scheduler: Added job "keep_alive_session_job" to job store "default"
+2026-09-16 13:16:55 [INFO] apscheduler.scheduler: Added job "check_training_reminders" to job store "default"
+2026-09-16 13:16:55 [INFO] apscheduler.scheduler: Added job "monitor_free_spots_job" to job store "default"
+2026-09-16 13:16:55 [INFO] apscheduler.scheduler: Scheduler started
+2026-09-16 13:16:55 [INFO] aiogram.dispatcher: Start polling
+2026-09-16 13:16:56 [INFO] aiogram.dispatcher: Run polling for bot @IUSport_Bot id=8817843936 - 'SportBot'
+2026-09-16 13:17:03 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:17:03 [INFO] aiogram.event: Update id=723450584 is handled. Duration 1349 ms by bot id=8817843936
+2026-09-16 13:17:06 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:17:07 [INFO] aiogram.event: Update id=723450585 is handled. Duration 897 ms by bot id=8817843936
+2026-09-16 13:17:10 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:17:10 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:17:11 [INFO] aiogram.event: Update id=723450586 is handled. Duration 1622 ms by bot id=8817843936
+2026-09-16 13:17:14 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:17:14 [INFO] aiogram.event: Update id=723450587 is handled. Duration 676 ms by bot id=8817843936
+2026-09-16 13:17:18 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:17:18 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/training/46760 "HTTP/1.1 200 OK"
+2026-09-16 13:17:20 [INFO] aiogram.event: Update id=723450588 is handled. Duration 2119 ms by bot id=8817843936
+2026-09-16 13:17:20 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:17:20 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/training/46760 "HTTP/1.1 200 OK"
+2026-09-16 13:17:21 [INFO] apscheduler.scheduler: Added job "booking_job" to job store "default"
+2026-09-16 13:17:21 [INFO] aiogram.event: Update id=723450589 is handled. Duration 906 ms by bot id=8817843936
+2026-09-16 13:17:21 [INFO] apscheduler.scheduler: Removed job booking_1972499386_46760
+2026-09-16 13:17:21 [INFO] apscheduler.executors.default: Running job "booking_job (trigger: date[2026-09-16 13:17:21 MSK], next run at: 2026-09-16 13:17:21 MSK)" (scheduled at 2026-09-16 13:17:21.961764+03:00)
+2026-09-16 13:17:23 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:17:23 [INFO] httpx: HTTP Request: POST https://sport.innopolis.university/api/training/46760/check_in "HTTP/1.1 200 OK"
+2026-09-16 13:17:23 [INFO] scheduler: Запись user=1972499386 training=46760 HTTP=200 code=None
+2026-09-16 13:17:23 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:17:24 [INFO] apscheduler.executors.default: Job "booking_job (trigger: date[2026-09-16 13:17:21 MSK], next run at: 2026-09-16 13:17:21 MSK)" executed successfully
+2026-09-16 13:17:41 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:17:41 [INFO] aiogram.event: Update id=723450590 is handled. Duration 638 ms by bot id=8817843936
+2026-09-16 13:17:43 [INFO] httpx: HTTP Request: POST https://sport.innopolis.university/api/training/46760/cancel_check_in "HTTP/1.1 200 OK"
+2026-09-16 13:17:44 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:17:44 [INFO] scheduler: Локальный BookingPlan удалён: user=1972499386 training=46760
+2026-09-16 13:17:44 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:17:45 [INFO] aiogram.event: Update id=723450591 is handled. Duration 1970 ms by bot id=8817843936
+2026-09-16 13:18:07 [INFO] aiogram.dispatcher: Polling stopped
+2026-09-16 13:18:07 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-09-16 13:18:07 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8817843936)
+2026-09-16 13:18:07 [INFO] apscheduler.scheduler: Paused scheduler job processing
+2026-09-16 13:18:07 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-09-16 13:18:07 [INFO] aiogram.dispatcher: Polling stopped for bot @IUSport_Bot id=8817843936 - 'SportBot'
+2026-09-16 13:18:07 [INFO] root: Бот остановлен.
+2026-09-16 13:18:08 [ERROR] asyncio: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000015E2B726E40>
+2026-09-16 13:56:38 [INFO] scheduler: Восстановлено запланированных записей: 0
+2026-09-16 13:56:38 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 13:56:38 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 13:56:38 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 13:56:38 [INFO] apscheduler.scheduler: Added job "keep_alive_session_job" to job store "default"
+2026-09-16 13:56:38 [INFO] apscheduler.scheduler: Added job "check_training_reminders" to job store "default"
+2026-09-16 13:56:38 [INFO] apscheduler.scheduler: Added job "monitor_free_spots_job" to job store "default"
+2026-09-16 13:56:38 [INFO] apscheduler.scheduler: Scheduler started
+2026-09-16 13:56:38 [INFO] aiogram.dispatcher: Start polling
+2026-09-16 13:56:39 [INFO] aiogram.dispatcher: Run polling for bot @IUSport_Bot id=8817843936 - 'SportBot'
+2026-09-16 13:57:05 [INFO] aiogram.event: Update id=723450631 is handled. Duration 1176 ms by bot id=8817843936
+2026-09-16 13:57:12 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:57:12 [INFO] aiogram.event: Update id=723450632 is handled. Duration 1101 ms by bot id=8817843936
+2026-09-16 13:57:14 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:57:15 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:57:17 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:57:17 [INFO] aiogram.event: Update id=723450633 is handled. Duration 3353 ms by bot id=8817843936
+2026-09-16 13:57:17 [INFO] aiogram.event: Update id=723450634 is handled. Duration 835 ms by bot id=8817843936
+2026-09-16 13:57:19 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:57:20 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/training/46760 "HTTP/1.1 200 OK"
+2026-09-16 13:57:20 [INFO] aiogram.event: Update id=723450635 is handled. Duration 932 ms by bot id=8817843936
+2026-09-16 13:57:22 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:57:22 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/training/46760 "HTTP/1.1 200 OK"
+2026-09-16 13:57:22 [INFO] apscheduler.scheduler: Added job "booking_job" to job store "default"
+2026-09-16 13:57:22 [INFO] aiogram.event: Update id=723450636 is handled. Duration 1298 ms by bot id=8817843936
+2026-09-16 13:57:23 [INFO] apscheduler.scheduler: Removed job booking_1972499386_46760
+2026-09-16 13:57:23 [INFO] apscheduler.executors.default: Running job "booking_job (trigger: date[2026-09-16 13:57:23 MSK], next run at: 2026-09-16 13:57:23 MSK)" (scheduled at 2026-09-16 13:57:23.425094+03:00)
+2026-09-16 13:57:25 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:57:25 [INFO] httpx: HTTP Request: POST https://sport.innopolis.university/api/training/46760/check_in "HTTP/1.1 200 OK"
+2026-09-16 13:57:25 [INFO] scheduler: Запись user=1972499386 training=46760 HTTP=200 code=None
+2026-09-16 13:57:26 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:57:26 [INFO] apscheduler.executors.default: Job "booking_job (trigger: date[2026-09-16 13:57:23 MSK], next run at: 2026-09-16 13:57:23 MSK)" executed successfully
+2026-09-16 13:57:35 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:57:35 [INFO] aiogram.event: Update id=723450637 is handled. Duration 565 ms by bot id=8817843936
+2026-09-16 13:57:37 [INFO] httpx: HTTP Request: POST https://sport.innopolis.university/api/training/46760/cancel_check_in "HTTP/1.1 200 OK"
+2026-09-16 13:57:37 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:57:38 [INFO] scheduler: Локальный BookingPlan удалён: user=1972499386 training=46760
+2026-09-16 13:57:38 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 13:57:38 [INFO] aiogram.event: Update id=723450638 is handled. Duration 1499 ms by bot id=8817843936
+2026-09-16 13:57:44 [INFO] aiogram.event: Update id=723450639 is handled. Duration 351 ms by bot id=8817843936
+2026-09-16 13:57:47 [INFO] aiogram.event: Update id=723450640 is handled. Duration 179 ms by bot id=8817843936
+2026-09-16 13:57:52 [INFO] aiogram.dispatcher: Polling stopped
+2026-09-16 13:57:52 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-09-16 13:57:52 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8817843936)
+2026-09-16 13:57:53 [INFO] apscheduler.scheduler: Paused scheduler job processing
+2026-09-16 13:57:53 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-09-16 13:57:53 [INFO] aiogram.dispatcher: Polling stopped for bot @IUSport_Bot id=8817843936 - 'SportBot'
+2026-09-16 13:57:53 [INFO] root: Бот остановлен.
+2026-09-16 13:57:53 [ERROR] asyncio: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001765C3027B0>
+2026-09-16 13:57:53 [ERROR] asyncio: Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x000001765C261B50>, 11863.6744202)])']
+connector: <aiohttp.connector.TCPConnector object at 0x000001765C32B890>
+2026-09-16 14:24:53 [INFO] scheduler: Восстановлено запланированных записей: 0
+2026-09-16 14:24:53 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 14:24:53 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 14:24:53 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 14:24:53 [INFO] apscheduler.scheduler: Added job "keep_alive_session_job" to job store "default"
+2026-09-16 14:24:53 [INFO] apscheduler.scheduler: Added job "check_training_reminders" to job store "default"
+2026-09-16 14:24:53 [INFO] apscheduler.scheduler: Added job "monitor_free_spots_job" to job store "default"
+2026-09-16 14:24:53 [INFO] apscheduler.scheduler: Scheduler started
+2026-09-16 14:24:53 [INFO] aiogram.dispatcher: Start polling
+2026-09-16 14:24:54 [INFO] aiogram.dispatcher: Run polling for bot @IUSport_Bot id=8817843936 - 'SportBot'
+2026-09-16 14:25:00 [INFO] aiogram.dispatcher: Polling stopped
+2026-09-16 14:25:00 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-09-16 14:25:00 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8817843936)
+2026-09-16 14:25:00 [INFO] apscheduler.scheduler: Paused scheduler job processing
+2026-09-16 14:25:00 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-09-16 14:25:00 [INFO] aiogram.dispatcher: Polling stopped for bot @IUSport_Bot id=8817843936 - 'SportBot'
+2026-09-16 14:25:00 [INFO] root: Бот остановлен.
+2026-09-16 14:30:05 [INFO] scheduler: Восстановлено запланированных записей: 0
+2026-09-16 14:30:05 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 14:30:05 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 14:30:05 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 14:30:05 [INFO] apscheduler.scheduler: Added job "keep_alive_session_job" to job store "default"
+2026-09-16 14:30:05 [INFO] apscheduler.scheduler: Added job "check_training_reminders" to job store "default"
+2026-09-16 14:30:05 [INFO] apscheduler.scheduler: Added job "monitor_free_spots_job" to job store "default"
+2026-09-16 14:30:05 [INFO] apscheduler.scheduler: Scheduler started
+2026-09-16 14:30:05 [INFO] aiogram.dispatcher: Start polling
+2026-09-16 14:30:06 [INFO] aiogram.dispatcher: Run polling for bot @IUSport_Bot id=8817843936 - 'SportBot'
+2026-09-16 14:30:07 [INFO] aiogram.event: Update id=723450641 is handled. Duration 678 ms by bot id=8817843936
+2026-09-16 14:30:13 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:30:13 [INFO] aiogram.event: Update id=723450642 is handled. Duration 1034 ms by bot id=8817843936
+2026-09-16 14:30:15 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:30:16 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:30:16 [INFO] aiogram.event: Update id=723450643 is handled. Duration 1147 ms by bot id=8817843936
+2026-09-16 14:30:19 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:30:19 [INFO] aiogram.event: Update id=723450644 is handled. Duration 676 ms by bot id=8817843936
+2026-09-16 14:30:21 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:30:22 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/training/46760 "HTTP/1.1 200 OK"
+2026-09-16 14:30:22 [INFO] aiogram.event: Update id=723450645 is handled. Duration 1230 ms by bot id=8817843936
+2026-09-16 14:30:24 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:30:24 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/training/46760 "HTTP/1.1 200 OK"
+2026-09-16 14:30:25 [INFO] apscheduler.scheduler: Added job "booking_job" to job store "default"
+2026-09-16 14:30:25 [INFO] aiogram.event: Update id=723450646 is handled. Duration 933 ms by bot id=8817843936
+2026-09-16 14:30:25 [INFO] apscheduler.scheduler: Removed job booking_1972499386_46760
+2026-09-16 14:30:25 [INFO] apscheduler.executors.default: Running job "booking_job (trigger: date[2026-09-16 14:30:25 MSK], next run at: 2026-09-16 14:30:25 MSK)" (scheduled at 2026-09-16 14:30:25.988017+03:00)
+2026-09-16 14:30:27 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:30:27 [INFO] httpx: HTTP Request: POST https://sport.innopolis.university/api/training/46760/check_in "HTTP/1.1 200 OK"
+2026-09-16 14:30:27 [INFO] scheduler: Запись user=1972499386 training=46760 HTTP=200 code=None
+2026-09-16 14:30:28 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:30:28 [INFO] apscheduler.executors.default: Job "booking_job (trigger: date[2026-09-16 14:30:25 MSK], next run at: 2026-09-16 14:30:25 MSK)" executed successfully
+2026-09-16 14:30:42 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:30:42 [INFO] aiogram.event: Update id=723450647 is handled. Duration 582 ms by bot id=8817843936
+2026-09-16 14:30:44 [INFO] httpx: HTTP Request: POST https://sport.innopolis.university/api/training/46760/cancel_check_in "HTTP/1.1 200 OK"
+2026-09-16 14:30:45 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:30:45 [INFO] scheduler: Локальный BookingPlan удалён: user=1972499386 training=46760
+2026-09-16 14:30:45 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:30:45 [INFO] aiogram.event: Update id=723450648 is handled. Duration 1579 ms by bot id=8817843936
+2026-09-16 14:30:54 [INFO] aiogram.dispatcher: Polling stopped
+2026-09-16 14:30:54 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-09-16 14:30:54 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8817843936)
+2026-09-16 14:30:55 [INFO] apscheduler.scheduler: Paused scheduler job processing
+2026-09-16 14:30:55 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-09-16 14:30:55 [INFO] aiogram.dispatcher: Polling stopped for bot @IUSport_Bot id=8817843936 - 'SportBot'
+2026-09-16 14:30:55 [INFO] root: Бот остановлен.
+2026-09-16 14:30:55 [ERROR] asyncio: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000024CDAC27CB0>
+2026-09-16 14:30:55 [ERROR] asyncio: Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x0000024CDAD4DE50>, 13845.4494769)])']
+connector: <aiohttp.connector.TCPConnector object at 0x0000024CDAE21BD0>
+2026-09-16 14:53:28 [INFO] scheduler: Восстановлено запланированных записей: 0
+2026-09-16 14:53:28 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 14:53:28 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 14:53:28 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 14:53:28 [INFO] apscheduler.scheduler: Added job "keep_alive_session_job" to job store "default"
+2026-09-16 14:53:28 [INFO] apscheduler.scheduler: Added job "check_training_reminders" to job store "default"
+2026-09-16 14:53:28 [INFO] apscheduler.scheduler: Added job "monitor_free_spots_job" to job store "default"
+2026-09-16 14:53:28 [INFO] apscheduler.scheduler: Scheduler started
+2026-09-16 14:53:28 [INFO] aiogram.dispatcher: Start polling
+2026-09-16 14:53:31 [INFO] aiogram.dispatcher: Run polling for bot @IUSport_Bot id=8817843936 - 'SportBot'
+2026-09-16 14:53:41 [ERROR] security: Не удалось расшифровать cookie: неверный ключ шифрования
+2026-09-16 14:53:41 [ERROR] security: Не удалось расшифровать cookie: неверный ключ шифрования
+2026-09-16 14:53:42 [ERROR] security: Не удалось расшифровать cookie: неверный ключ шифрования
+2026-09-16 14:53:42 [ERROR] security: Не удалось расшифровать cookie: неверный ключ шифрования
+2026-09-16 14:53:42 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 401 Unauthorized"
+2026-09-16 14:53:42 [WARNING] parser: Расписание: status=401 body={"detail":"Authentication credentials were not provided."}
+2026-09-16 14:53:43 [INFO] aiogram.event: Update id=723450649 is handled. Duration 1188 ms by bot id=8817843936
+2026-09-16 14:53:47 [INFO] aiogram.event: Update id=723450650 is handled. Duration 155 ms by bot id=8817843936
+2026-09-16 14:53:51 [ERROR] security: Не удалось расшифровать cookie: неверный ключ шифрования
+2026-09-16 14:53:51 [ERROR] security: Не удалось расшифровать cookie: неверный ключ шифрования
+2026-09-16 14:53:51 [ERROR] security: Не удалось расшифровать cookie: неверный ключ шифрования
+2026-09-16 14:53:51 [ERROR] security: Не удалось расшифровать cookie: неверный ключ шифрования
+2026-09-16 14:53:51 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 401 Unauthorized"
+2026-09-16 14:53:51 [WARNING] parser: Расписание: status=401 body={"detail":"Authentication credentials were not provided."}
+2026-09-16 14:53:51 [INFO] aiogram.event: Update id=723450651 is handled. Duration 294 ms by bot id=8817843936
+2026-09-16 14:53:55 [INFO] aiogram.event: Update id=723450652 is handled. Duration 186 ms by bot id=8817843936
+2026-09-16 14:54:22 [INFO] aiogram.dispatcher: Polling stopped
+2026-09-16 14:54:22 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-09-16 14:54:22 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8817843936)
+2026-09-16 14:54:23 [INFO] apscheduler.scheduler: Paused scheduler job processing
+2026-09-16 14:54:23 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-09-16 14:54:23 [INFO] aiogram.dispatcher: Polling stopped for bot @IUSport_Bot id=8817843936 - 'SportBot'
+2026-09-16 14:54:23 [INFO] root: Бот остановлен.
+2026-09-16 14:54:39 [INFO] scheduler: Восстановлено запланированных записей: 0
+2026-09-16 14:54:39 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 14:54:39 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 14:54:39 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-09-16 14:54:39 [INFO] apscheduler.scheduler: Added job "keep_alive_session_job" to job store "default"
+2026-09-16 14:54:39 [INFO] apscheduler.scheduler: Added job "check_training_reminders" to job store "default"
+2026-09-16 14:54:39 [INFO] apscheduler.scheduler: Added job "monitor_free_spots_job" to job store "default"
+2026-09-16 14:54:39 [INFO] apscheduler.scheduler: Scheduler started
+2026-09-16 14:54:39 [INFO] aiogram.dispatcher: Start polling
+2026-09-16 14:54:40 [INFO] aiogram.dispatcher: Run polling for bot @IUSport_Bot id=8817843936 - 'SportBot'
+2026-09-16 14:54:56 [INFO] aiogram.event: Update id=723450653 is handled. Duration 1035 ms by bot id=8817843936
+2026-09-16 14:55:05 [INFO] aiogram.event: Update id=723450654 is handled. Duration 141 ms by bot id=8817843936
+2026-09-16 14:55:12 [INFO] aiogram.event: Update id=723450655 is handled. Duration 267 ms by bot id=8817843936
+2026-09-16 14:55:16 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:55:16 [INFO] aiogram.event: Update id=723450656 is handled. Duration 712 ms by bot id=8817843936
+2026-09-16 14:55:27 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:55:27 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:55:28 [INFO] aiogram.event: Update id=723450657 is handled. Duration 1280 ms by bot id=8817843936
+2026-09-16 14:55:37 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:55:38 [INFO] aiogram.event: Update id=723450658 is handled. Duration 667 ms by bot id=8817843936
+2026-09-16 14:55:42 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:55:42 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/training/47608 "HTTP/1.1 200 OK"
+2026-09-16 14:55:43 [INFO] aiogram.event: Update id=723450659 is handled. Duration 1370 ms by bot id=8817843936
+2026-09-16 14:55:45 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 14:55:46 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/training/47608 "HTTP/1.1 200 OK"
+2026-09-16 14:55:46 [INFO] apscheduler.scheduler: Added job "booking_job" to job store "default"
+2026-09-16 14:55:46 [INFO] aiogram.event: Update id=723450660 is handled. Duration 1198 ms by bot id=8817843936
+2026-09-16 14:56:39 [INFO] apscheduler.executors.default: Running job "monitor_free_spots_job (trigger: interval[0:02:00], next run at: 2026-09-16 14:58:39 MSK)" (scheduled at 2026-09-16 14:56:39.314402+03:00)
+2026-09-16 14:56:39 [INFO] apscheduler.executors.default: Job "monitor_free_spots_job (trigger: interval[0:02:00], next run at: 2026-09-16 14:58:39 MSK)" executed successfully
+2026-09-16 14:58:39 [INFO] apscheduler.executors.default: Running job "monitor_free_spots_job (trigger: interval[0:02:00], next run at: 2026-09-16 15:00:39 MSK)" (scheduled at 2026-09-16 14:58:39.314402+03:00)
+2026-09-16 14:58:39 [INFO] apscheduler.executors.default: Job "monitor_free_spots_job (trigger: interval[0:02:00], next run at: 2026-09-16 15:00:39 MSK)" executed successfully
+2026-09-16 15:00:00 [INFO] apscheduler.scheduler: Removed job booking_1972499386_47608
+2026-09-16 15:00:00 [INFO] apscheduler.executors.default: Running job "booking_job (trigger: date[2026-09-16 15:00:00 MSK], next run at: 2026-09-16 15:00:00 MSK)" (scheduled at 2026-09-16 15:00:00+03:00)
+2026-09-16 15:00:01 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:00:01 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:00:02 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:00:03 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:00:04 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:00:04 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:00:05 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:00:06 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:00:06 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:00:08 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:00:08 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:00:08 [INFO] apscheduler.scheduler: Added job "booking_job" to job store "default"
+2026-09-16 15:00:08 [INFO] apscheduler.executors.default: Job "booking_job (trigger: date[2026-09-16 15:00:00 MSK], next run at: 2026-09-16 15:00:00 MSK)" executed successfully
+2026-09-16 15:00:18 [INFO] apscheduler.scheduler: Removed job booking_1972499386_47608
+2026-09-16 15:00:18 [INFO] apscheduler.executors.default: Running job "booking_job (trigger: date[2026-09-16 15:00:18 MSK], next run at: 2026-09-16 15:00:18 MSK)" (scheduled at 2026-09-16 15:00:18.934876+03:00)
+2026-09-16 15:00:19 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:00:19 [INFO] httpx: HTTP Request: POST https://sport.innopolis.university/api/training/47608/check_in "HTTP/1.1 200 OK"
+2026-09-16 15:00:19 [INFO] scheduler: Запись user=1972499386 training=47608 HTTP=200 code=None
+2026-09-16 15:00:20 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:00:21 [INFO] apscheduler.executors.default: Job "booking_job (trigger: date[2026-09-16 15:00:18 MSK], next run at: 2026-09-16 15:00:18 MSK)" executed successfully
+2026-09-16 15:00:39 [INFO] apscheduler.executors.default: Running job "monitor_free_spots_job (trigger: interval[0:02:00], next run at: 2026-09-16 15:02:39 MSK)" (scheduled at 2026-09-16 15:00:39.314402+03:00)
+2026-09-16 15:00:39 [INFO] apscheduler.executors.default: Job "monitor_free_spots_job (trigger: interval[0:02:00], next run at: 2026-09-16 15:02:39 MSK)" executed successfully
+2026-09-16 15:00:52 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:00:55 [INFO] aiogram.event: Update id=723450661 is handled. Duration 3848 ms by bot id=8817843936
+2026-09-16 15:01:01 [INFO] httpx: HTTP Request: POST https://sport.innopolis.university/api/training/47608/cancel_check_in "HTTP/1.1 200 OK"
+2026-09-16 15:01:01 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:01:01 [INFO] scheduler: Локальный BookingPlan удалён: user=1972499386 training=47608
+2026-09-16 15:01:02 [INFO] httpx: HTTP Request: GET https://sport.innopolis.university/api/calendar/trainings?start=2026-09-16T00%3A00%3A00&end=2026-10-07T23%3A59%3A59 "HTTP/1.1 200 OK"
+2026-09-16 15:01:02 [INFO] aiogram.event: Update id=723450662 is handled. Duration 1897 ms by bot id=8817843936
+2026-09-16 15:01:39 [INFO] aiogram.dispatcher: Polling stopped
+2026-09-16 15:01:39 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-09-16 15:01:39 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8817843936)
+2026-09-16 15:01:39 [INFO] apscheduler.scheduler: Paused scheduler job processing
+2026-09-16 15:01:39 [INFO] apscheduler.scheduler: Scheduler has been shut down
+2026-09-16 15:01:39 [INFO] aiogram.dispatcher: Polling stopped for bot @IUSport_Bot id=8817843936 - 'SportBot'
+2026-09-16 15:01:39 [INFO] root: Бот остановлен.
+2026-09-16 15:01:40 [ERROR] asyncio: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001FA2810B380>
